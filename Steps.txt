@@ -1,0 +1,30 @@
+To Publish Module:
+=================
+1. Create Repository in GitHub
+------------------------------
+Navigate to https://github.com/
+Create new repository
+Name : terraform-<providername>-<name>
+For Example : terraform-azure-mystorage
+Type : Public 
+Add a README file
+Create repository
+
+2. Push the Module script in the created repo
+---------------------------------------------
+Add Files -> Upload files
+Drag and drop the modules directory 
+Commit changes
+
+3. Create a release
+-------------------
+Create a new release
+v1.0 -> tagname
+publish release
+
+4. Publish the Module in terraform registry
+-------------------------------------------
+https://registry.terraform.io/ 
+Signin with github account
+Top right -> Publish -> Module
+select that repository and click on publish module
